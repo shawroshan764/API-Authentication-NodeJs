@@ -16,7 +16,7 @@ The application is **production ready**.
 Step 1: Clone the repo
 
 ```bash
-git clone https://github.com/trulymittal/API-Authentication-NodeJs.git
+git clone https://github.com/shawroshan764/API-Authentication-NodeJs.git
 ```
 
 Step 2: cd into the cloned repo and run:
