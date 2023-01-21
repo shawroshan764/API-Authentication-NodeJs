@@ -1,0 +1,5 @@
+GET http://localhost:3000
+Authorization:  Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NzQzMjIxMTQsImV4cCI6MTY3NDMyNTcxNCwiYXVkIjoiNjNjYmY5YTVjODYxYTk1ZmI5MjRmZjExIiwiaXNzIjoicGlja2VycGFnZS5jb20ifQ.yDaJGfiNeSB5D1R92ypFt8BZehTBjBePer6Qf7SOaLY
+
+POST http://localhost:3000/auth/register
+
