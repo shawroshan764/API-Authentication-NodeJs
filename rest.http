@@ -1,5 +1,10 @@
 GET http://localhost:3000
-Authorization:  Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NzQzMjIxMTQsImV4cCI6MTY3NDMyNTcxNCwiYXVkIjoiNjNjYmY5YTVjODYxYTk1ZmI5MjRmZjExIiwiaXNzIjoicGlja2VycGFnZS5jb20ifQ.yDaJGfiNeSB5D1R92ypFt8BZehTBjBePer6Qf7SOaLY
+Authorization:  Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NzQzNjQ4MzEsImV4cCI6MTY3NDM2NDg2MSwiYXVkIjoiNjNjY2JkMWVhNzNlMTk0ZTQ3Yzc4YmY4IiwiaXNzIjoicGlja2VycGFnZS5jb20ifQ.qoCJmQIUtXQtXIZhui5oQHhRZFNGSGuFDH2F6Hi9I74
 
-POST http://localhost:3000/auth/register
+### refresh token
+POST http://localhost:3000/auth/refresh-token
+Content-Type: : application/json
 
+{
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NzQzNjQ4MzIsImV4cCI6MTcwNTkyMjQzMiwiYXVkIjoiNjNjY2JkMWVhNzNlMTk0ZTQ3Yzc4YmY4IiwiaXNzIjoicGlja2VycGFnZS5jb20ifQ.-AnAX9InJCVgP1-cVdvv4B5hAATqykHYEox_b8wpAo8"
+}
